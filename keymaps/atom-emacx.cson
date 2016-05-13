@@ -16,6 +16,19 @@
 '.platform-linux':
   'alt-t': 'fuzzy-finder:toggle-file-finder'
 
+# ATOMAGIT BINDINGS
+'.platform-linux atom-workspace':
+  'alt-a': 'atomatigit:toggle'
+
+'.atomatigit .file-list-view':
+  's': 'atomatigit:stage'
+  'z': 'atomatigit:stash'
+  'shift-z': 'atomatigit:stash-pop'
+  'u': 'atomatigit:unstage'
+  'tab': 'atomatigit:toggle-diff'
+  'c': 'atomatigit:commit'
+
+
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-a': 'editor:move-to-beginning-of-line'
   'ctrl-e': 'editor:move-to-end-of-screen-line'

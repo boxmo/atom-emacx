@@ -1,0 +1,30 @@
+'atom-text-editor:not([mini])':
+  'tab': 'atom-emacx:auto-indent'
+
+'atom-workspace':
+  'alt-x': 'command-palette:toggle'
+  # 'ctrl-x 0': 'pane:close'
+  # 'ctrl-x 1': 'emacs-plus:close-other-panes'
+  # 'ctrl-x 2': 'pane:split-down-and-copy-active-item'
+  # 'ctrl-x 3': 'pane:split-right-and-copy-active-item'
+  'alt-q': 'core:close'
+
+
+'.platform-linux atom-text-editor':
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+
+'.platform-linux':
+  'alt-t': 'fuzzy-finder:toggle-file-finder'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-a': 'editor:move-to-beginning-of-line'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
+  'alt-;': 'editor:toggle-line-comments'
+  'alt-q': 'core:close'
+  'alt-r': 'find-and-replace:use-selection-as-find-pattern'
+  'alt-s': 'core:save'
+  'ctrl-s': 'core:select-all'
+
+'.find-and-replace':
+  'ctrl-r': 'find-and-replace:find-previous'
+  'ctrl-s': 'find-and-replace:find-next'

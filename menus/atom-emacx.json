@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-emacx",
+        "command": "atom-emacx:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-emacx",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-emacx:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

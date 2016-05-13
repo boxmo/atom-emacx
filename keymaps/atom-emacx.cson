@@ -26,7 +26,7 @@
   'shift-z': 'atomatigit:stash-pop'
   'u': 'atomatigit:unstage'
   'tab': 'atomatigit:toggle-diff'
-  'c': 'atomatigit:commit'
+  'ctrl-c': 'atomatigit:commit'
 
 
 'atom-workspace atom-text-editor:not([mini])':
